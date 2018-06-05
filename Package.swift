@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "cb_api_postgres",
+    name: "commentbox_api",
     dependencies: [
         .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
 	.package(url: "https://github.com/vapor/fluent-mysql.git", from: "3.0.0-rc.2")
